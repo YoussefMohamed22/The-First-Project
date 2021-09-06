@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/7610325540.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+    <section style="background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/background.jpg); background-position: center; background-size: cover;" class="header">
+        <nav>
+            <a href="index.html"></a><img class="nav-img" src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="close-btn fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about us.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1 class="h-1 h-about">Contact Us</h1>
+    </section>
+
+
+
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55251.33564056191!2d31.22344491853406!3d30.059558098334296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2sCairo%2C%20Cairo%20Governorate!5e0!3m2!1sen!2seg!4v1626554976248!5m2!1sen!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    
+
+    <section class="contact">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fas fa-home"></i>
+                    <span>
+                        <h5>Public Road, Soucial Building</h5>
+                        <p>Cairo, Egypt, IN</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-phone"></i>
+                    <span>
+                        <h5>+20 106 102 8775</h5>
+                        <p>Sunday to Wednsday, 10AM to 5PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-envelope"></i>
+                    <span>
+                        <h5>you01061028775@gmail.com</h5>
+                        <p>Email Us Your Query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Your Name">
+                    <input type="email" placeholder="Enter Your Email">
+                    <textarea rows="5" placeholder="Type Your Comment"></textarea>
+                    <button type="submit" class="h-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consecteturng elit. Ab sit veniam, voluptatibus 
+        blanditiis, magni qui <br> soluta fuga reprehenderit beatae diapisicing elit.</p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fas fa-heart"></i> By Youssef Mohamed</p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

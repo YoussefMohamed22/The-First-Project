@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT US</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/7610325540.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+    <section style="background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/background.jpg); background-position: center; background-size: cover;" class="header">
+        <nav>
+            <a href="index.html"></a><img class="nav-img" src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="close-btn fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about us.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1 class="h-1 h-about">About Us</h1>
+    </section>
+
+
+
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-us-col">
+                <h1>We are the world's largest university</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                obcaecati itaque neque aliquam iste consequatur a animi quas sed, asp
+                eriores deserunt quae provident tempore consectetur id tenetur sequi molestias deleniti!</p>
+                <a class="h-btn red-btn" href="">EXPLORE NOW !</a>
+            </div>
+            <div class="about-us-col">
+                <img src="images/about.jpg">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consecteturng elit. Ab sit veniam, voluptatibus 
+        blanditiis, magni qui <br> soluta fuga reprehenderit beatae diapisicing elit.</p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fas fa-heart"></i> By Youssef Mohamed</p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
